@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "title": "Basic Print",
+    "code": "console.log('Hello, World!')",
+    "lang": "javascript"
+  },
+  {
+    "id": 2,
+    "title": "Arrow Function",
+    "code": "const add = (a, b) => a + b;",
+    "lang": "javascript"
+  },
+  {
+    "id": 3,
+    "title": "Fetch API",
+    "code": "const fetchAPI = async(URL) => {\n\tconst response = await fetch(URL);\n\tconst data = await response.json();\n\tconsole.log(data)}\nfetchAPI('https://example.com')",
+    "lang": "javascript"
+  },
+  {
+    "id": 4,
+    "title": "Conditional (Ternary) Operator",
+    "code": "const result = condition ? 'True' : 'False';",
+    "lang": "javascript"
+  },
+  {
+    "id": 5,
+    "title": "Class Declaration",
+    "code": "class Person {\n\tconstructor(name, age) {\n\t\tthis.name = name;\n\t\tthis.age = age;\n\t}\n}",
+    "lang": "javascript"
+  },
+  {
+    "id": 6,
+    "title": "Map over Array",
+    "code": "const numbers = [1, 2, 3];\nconst squared = numbers.map(num => num * 2);",
+    "lang": "javascript"
+  },
+  {
+    "id": 7,
+    "title": "Default Function Parameters",
+    "code": "const greet = (name = 'User') => `Hello, ${name}`;",
+    "lang": "javascript"
+  },
+  {
+    "id": 8,
+    "title": "Template Literals",
+    "code": "const name = 'John';\nconst greeting = `Hello, ${name}!`;",
+    "lang": "javascript"
+  },
+  {
+    "id": 9,
+    "title": "Array Destructuring",
+    "code": "const [first, second] = [1, 2, 3];",
+    "lang": "javascript"
+  },
+  {
+    "id": 10,
+    "title": "Object Destructuring",
+    "code": "const person = { name: 'Jane', age: 30 };\nconst { name, age } = person;",
+    "lang": "javascript"
+  },
+  {
+    "id": 11,
+    "title": "Async/Await",
+    "code": "const fetchData = async (url) => {\n\ttry {\n\t\tconst response = await fetch(url);\n\t\tconst data = await response.json();\n\t\tconsole.log(data);\n\t} catch (error) {\n\t\tconsole.error('Error fetching data:', error);\n\t}\n};\nfetchData('https://api.example.com/data');",
+    "lang": "javascript"
+  },
+  {
+    "id": 12,
+    "title": "Promise",
+    "code": "const promise = new Promise((resolve, reject) => {\n\tresolve('Success');\n});",
+    "lang": "javascript"
+  },
+  {
+    "id": 13,
+    "title": "String Includes",
+    "code": "const message = 'Hello World';\nconst hasHello = message.includes('Hello');",
+    "lang": "javascript"
+  },
+  {
+    "id": 14,
+    "title": "For Loop",
+    "code": "for (let i = 0; i < 5; i++) {\n\tconsole.log(i);\n}",
+    "lang": "javascript"
+  },
+  {
+    "id": 15,
+    "title": "For Each",
+    "code": "const items = [1, 2, 3];\nitems.forEach(item => console.log(item));",
+    "lang": "javascript"
+  },
+  {
+    "id": 16,
+    "title": "Object Keys",
+    "code": "const person = { name: 'John', age: 25 };\nconst keys = Object.keys(person);",
+    "lang": "javascript"
+  },
+  {
+    "id": 17,
+    "title": "Object Values",
+    "code": "const person = { name: 'John', age: 25 };\nconst values = Object.values(person);",
+    "lang": "javascript"
+  },
+  {
+    "id": 18,
+    "title": "Spread Operator (Array)",
+    "code": "const arr1 = [1, 2];\nconst arr2 = [...arr1, 3, 4];",
+    "lang": "javascript"
+  },
+  {
+    "id": 19,
+    "title": "Spread Operator (Object)",
+    "code": "const person = { name: 'John' };\nconst updatedPerson = { ...person, age: 30 };",
+    "lang": "javascript"
+  },
+  {
+    "id": 20,
+    "title": "Rest Operator",
+    "code": "const add = (...nums) => nums.reduce((a, b) => a + b);",
+    "lang": "javascript"
+  },
+  {
+    "id": 21,
+    "title": "Set Timeout",
+    "code": "setTimeout(() => console.log('Delayed Hello'), 1000);",
+    "lang": "javascript"
+  },
+  {
+    "id": 22,
+    "title": "Set Interval",
+    "code": "setInterval(() => console.log('Repeating Message'), 1000);",
+    "lang": "javascript"
+  },
+  {
+    "id": 23,
+    "title": "Arrow Function with Implicit Return",
+    "code": "const double = x => x * 2;",
+    "lang": "javascript"
+  },
+  {
+    "id": 24,
+    "title": "Array Find",
+    "code": "const numbers = [1, 2, 3, 4];\nconst found = numbers.find(num => num === 3);",
+    "lang": "javascript"
+  },
+  {
+    "id": 25,
+    "title": "Array Filter",
+    "code": "const numbers = [1, 2, 3, 4];\nconst evens = numbers.filter(num => num % 2 === 0);",
+    "lang": "javascript"
+  },
+  {
+    "id": 26,
+    "title": "Array Reduce",
+    "code": "const numbers = [1, 2, 3];\nconst sum = numbers.reduce((total, num) => total + num, 0);",
+    "lang": "javascript"
+  },
+  {
+    "id": 27,
+    "title": "Math Random",
+    "code": "const random = Math.random();",
+    "lang": "javascript"
+  },
+  {
+    "id": 28,
+    "title": "Math Floor",
+    "code": "const floorValue = Math.floor(4.7);",
+    "lang": "javascript"
+  },
+  {
+    "id": 29,
+    "title": "Math Ceil",
+    "code": "const ceilValue = Math.ceil(4.1);",
+    "lang": "javascript"
+  },
+  {
+    "id": 30,
+    "title": "Math Max",
+    "code": "const maxValue = Math.max(1, 2, 3, 4);",
+    "lang": "javascript"
+  },
+  {
+    "id": 31,
+    "title": "Math Min",
+    "code": "const minValue = Math.min(1, 2, 3, 4);",
+    "lang": "javascript"
+  },
+  {
+    "id": 32,
+    "title": "Date Now",
+    "code": "const currentTime = Date.now();",
+    "lang": "javascript"
+  },
+  {
+    "id": 33,
+    "title": "New Date",
+    "code": "const date = new Date();",
+    "lang": "javascript"
+  },
+  {
+    "id": 34,
+    "title": "Set Date",
+    "code": "const date = new Date();\ndate.setFullYear(2022);",
+    "lang": "javascript"
+  },
+  {
+    "id": 35,
+    "title": "Local Storage Set",
+    "code": "localStorage.setItem('key', 'value');",
+    "lang": "javascript"
+  },
+  {
+    "id": 36,
+    "title": "Local Storage Get",
+    "code": "const value = localStorage.getItem('key');",
+    "lang": "javascript"
+  },
+  {
+    "id": 37,
+    "title": "Session Storage Set",
+    "code": "sessionStorage.setItem('key', 'value');",
+    "lang": "javascript"
+  },
+  {
+    "id": 38,
+    "title": "Session Storage Get",
+    "code": "const value = sessionStorage.getItem('key');",
+    "lang": "javascript"
+  },
+  {
+    "id": 39,
+    "title": "Try Catch",
+    "code": "try {\n\tthrow new Error('Error message');\n} catch (error) {\n\tconsole.error(error);\n}",
+    "lang": "javascript"
+  },
+  {
+    "id": 40,
+    "title": "String to Upper Case",
+    "code": "const str = 'hello'.toUpperCase();",
+    "lang": "javascript"
+  },
+  {
+    "id": 41,
+    "title": "String to Lower Case",
+    "code": "const str = 'HELLO'.toLowerCase();",
+    "lang": "javascript"
+  },
+  {
+    "id": 42,
+    "title": "Array Join",
+    "code": "const arr = ['Hello', 'World'];\nconst joined = arr.join(' ');",
+    "lang": "javascript"
+  },
+  {
+    "id": 43,
+    "title": "Array Concat",
+    "code": "const arr1 = [1, 2];\nconst arr2 = [3, 4];\nconst combined = arr1.concat(arr2);",
+    "lang": "javascript"
+  },
+  {
+    "id": 44,
+    "title": "Array Slice",
+    "code": "const arr = [1, 2, 3, 4];\nconst sliced = arr.slice(1, 3);",
+    "lang": "javascript"
+  },
+  {
+    "id": 45,
+    "title": "Array Splice",
+    "code": "const arr = [1, 2, 3, 4];\narr.splice(1, 2);",
+    "lang": "javascript"
+  },
+  {
+    "id": 46,
+    "title": "Array Push",
+    "code": "const arr = [1, 2];\narr.push(3);",
+    "lang": "javascript"
+  },
+  {
+    "id": 47,
+    "title": "Array Pop",
+    "code": "const arr = [1, 2, 3];\nconst last = arr.pop();",
+    "lang": "javascript"
+  },
+  {
+    "id": 48,
+    "title": "Array Shift",
+    "code": "const arr = [1, 2, 3];\nconst first = arr.shift();",
+    "lang": "javascript"
+  },
+  {
+    "id": 49,
+    "title": "Array Unshift",
+    "code": "const arr = [1, 2];\narr.unshift(0);",
+    "lang": "javascript"
+  },
+  {
+    "id": 50,
+    "title": "Deep Copy Object",
+    "code": "const obj = {a: 1, b: 2};\nconst deepCopy = JSON.parse(JSON.stringify(obj));",
+    "lang": "javascript"
+  }
+]
